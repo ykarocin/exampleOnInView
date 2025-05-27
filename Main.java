@@ -4,7 +4,7 @@ public class Main {
 
         CaseFile case1 = new CaseFile("The Misterious Theft in the Museum");
         case1.addClue(new Clue("Digital printing on the display window", 8));
-        case1.addClue(new Clue("Security camera failed", 6));
+        case1.addClue(new Clue("Security camera failed", -1));
         case1.addClue(new Clue("VIP report found", 9));
 
         CaseFile case2 = new CaseFile("Disappearance in the Park");
