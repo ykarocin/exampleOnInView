@@ -9,6 +9,7 @@ public class Main {
         CaseFile case2 = new CaseFile("Disappearance in the Park");
         case2.addClue(new Clue("Footprints found in the mud\r\n", 5));
 
+        //Current changes
         Clue newClue = new Clue("Witness saw hooded figure", 6);
         boolean isSignificant = newClue.isInsignificant();
         case2.addClue(newClue);
