@@ -6,7 +6,12 @@ public class Clue {
 
     public Clue(String description, int significance) {
         this.description = description;
-        this.significance = significance;
+        
+        // Previous change
+        if (significance < 0) {
+            System.err.println("Normalizing negative significance " + significance + " to 0");
+        }
+        this.significance = Math.max(significance, 0);
     }
 
     /** Textual description of the {@link Clue} */

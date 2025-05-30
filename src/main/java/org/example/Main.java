@@ -8,6 +8,9 @@ public class Main {
         case1.addClue(new Clue("Digital printing on the display window", 8));
         case1.addClue(new Clue("VIP report found", 9));
 
+        // Preivous change
+        case1.addClue(new Clue("Security camera failed", -1));
+
         CaseFile case2 = new CaseFile("Disappearance in the Park");
         case2.addClue(new Clue("Footprints found in the mud\r\n", 5));
         case2.addClue(new Clue("Witness saw hooded figure", 6));
