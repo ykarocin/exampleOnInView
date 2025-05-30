@@ -1,4 +1,5 @@
-package src.main.java.org.example;
+package org.example;
+
 public class Clue {
     private String description;
     private int significance;
