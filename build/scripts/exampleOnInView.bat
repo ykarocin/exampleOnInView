@@ -66,7 +66,7 @@ set CMD_LINE_ARGS=%*
 set CLASSPATH=%APP_HOME%\lib\exampleOnInView.jar
 
 @rem Execute exampleOnInView
-"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %EXAMPLE_ON_IN_VIEW_OPTS%  -classpath "%CLASSPATH%" com.exemple.Main %CMD_LINE_ARGS%
+"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %EXAMPLE_ON_IN_VIEW_OPTS%  -classpath "%CLASSPATH%" org.exemple.Main %CMD_LINE_ARGS%
 
 :end
 @rem End local scope for the variables with windows NT shell
