@@ -1,3 +1,5 @@
+package src.main.java.com.example;
+
 public class Main {
     public static void main(String[] args) {
         Detective detective = new Detective("Sherlock Holmes");

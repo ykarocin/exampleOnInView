@@ -1,0 +1,8 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+application {
+    mainClassName = 'com.exemple.Main' // <-- substitua com o nome completo da sua classe principal
+}
