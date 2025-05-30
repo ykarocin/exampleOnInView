@@ -4,5 +4,5 @@ plugins {
 }
 
 application {
-    mainClassName = 'com.exemple.Main' // <-- substitua com o nome completo da sua classe principal
+    mainClassName = 'com.exemple.Main'
 }
